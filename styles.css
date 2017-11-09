@@ -1,15 +1,22 @@
 table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
+    border-style: solid;
+    border-color: rgb(247, 189, 0);
+    width: 50%;
+    margin: auto;
 }
 td {
-    height: 50px;
+    height: 25px;
     vertical-align: bottom;
 }
 th, td {
-    padding: 6px;
-    text-align: left;
+    padding: 1px;
+    text-align: center;
+    color: rgb(177, 247, 0);
+}
+th {
+	font-size: 290%;
+	color: rgb(255, 255, 255);
 }
 body {
-	background-color: green;
+	background-color: #960707;
 }
